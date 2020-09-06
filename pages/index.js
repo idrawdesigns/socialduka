@@ -1,5 +1,5 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import Head from "next/head";
+import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
@@ -10,10 +10,8 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Work in Progress
-        </h1>
-
+        <h1 className={styles.title}>Work in Progress</h1>
+      </main>
 
       <footer className={styles.footer}>
         <a
@@ -21,10 +19,10 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
-          {/* <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} /> */}
+          Powered by{" "}
+          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
         </a>
       </footer>
     </div>
-  )
+  );
 }
