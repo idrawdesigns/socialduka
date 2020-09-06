@@ -21,7 +21,7 @@ export default function Home() {
         >
           Powered by{" "}
           <img
-            style={{ width: "100px" }}
+            style={{ height: "2em" }}
             src="/socialdukalogo.svg"
             alt="social duka Logo"
             className={styles.logo}
